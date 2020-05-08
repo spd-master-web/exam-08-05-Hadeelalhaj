@@ -6,7 +6,7 @@
   /* background-image: url('/images/grid-2.png'); */
 }
 .ui-grid-container-three {
-  background-image: url('/images/grid-3.png');
+  /* background-image: url('/images/grid-3.png'); */
 }
 /* your CSS goes here */
 .ui-grid-container { 
@@ -24,10 +24,36 @@
   grid-row: 2/4;
 }
 
-.ui-grid-container div.blue {
+.ui-grid-container-two div.blue {
   background-color: rgb(100, 149, 237);
 }
-.ui-grid-container div.white {
+.ui-grid-container-two div.white {
   background-color: white;
+}
+.ui-grid-container-three {
+  position: relative;
+}
+
+.ui-grid-container-three div.blue {
+  background-color:rgb(100, 149, 237);
+  grid-column: 1/5;
+  grid-row: 1/6;
+}
+.ui-grid-container-three div.pink {
+  background-color:rgb(252, 106, 215);
+  grid-column: 5/6;
+  grid-row: 1/7;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7em;
+  font-weight: 900;
+  text-shadow: 2px 2px rgb(255, 151, 229);
+  position: absolute;
+  top: 200px;
+  right: 30px;
+  color: rgb(223, 10, 116);
+
+
 }
 
